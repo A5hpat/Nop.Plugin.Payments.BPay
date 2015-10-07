@@ -1,0 +1,10 @@
+C:\nopCommerce_3.60_Source\Presentation\Nop.Web\Plugins\Payments.BPay\Description.txt
+C:\nopCommerce_3.60_Source\Presentation\Nop.Web\Plugins\Payments.BPay\logo.jpg
+C:\nopCommerce_3.60_Source\Presentation\Nop.Web\Plugins\Payments.BPay\web.config
+C:\nopCommerce_3.60_Source\Presentation\Nop.Web\Plugins\Payments.BPay\Views\PaymentBPay\Configure.cshtml
+C:\nopCommerce_3.60_Source\Presentation\Nop.Web\Plugins\Payments.BPay\Views\PaymentBPay\PaymentInfo.cshtml
+C:\nopCommerce_3.60_Source\Presentation\Nop.Web\Plugins\Payments.BPay\Nop.Plugin.Payments.BPay.dll
+C:\nopCommerce_3.60_Source\Presentation\Nop.Web\Plugins\Payments.BPay\Nop.Plugin.Payments.BPay.pdb
+C:\nopCommerce_3.60_Source\Plugins\Nop.Plugin.Payments.BPay\obj\Debug\Nop.Plugin.Payments.BPay.csprojResolveAssemblyReference.cache
+C:\nopCommerce_3.60_Source\Plugins\Nop.Plugin.Payments.BPay\obj\Debug\Nop.Plugin.Payments.BPay.dll
+C:\nopCommerce_3.60_Source\Plugins\Nop.Plugin.Payments.BPay\obj\Debug\Nop.Plugin.Payments.BPay.pdb

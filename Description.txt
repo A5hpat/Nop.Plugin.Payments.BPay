@@ -3,6 +3,6 @@ FriendlyName: BPay
 SystemName: Payments.BPay
 Version: 1.15
 SupportedVersions: 3.60
-Author: nopCommerce team
+Author: Ashish Patel (ashishblog.com)
 DisplayOrder: 1
 FileName: Nop.Plugin.Payments.BPay.dll

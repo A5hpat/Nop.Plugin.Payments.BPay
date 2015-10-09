@@ -10,10 +10,12 @@ using Nop.Services.Localization;
 using Nop.Services.Orders;
 using Nop.Services.Payments;
 using System.Text;
+using Nop.Web.Framework.Menu;
+using System.Linq;
 
 namespace Nop.Plugin.Payments.BPay
 {
-    public class BPayPaymentProcessor : BasePlugin, IPaymentMethod
+    public class BPayPaymentProcessor : BasePlugin, IPaymentMethod, IAdminMenuPlugin
     {
         #region Fields
         private readonly BPayPaymentSettings _bPayPaymentSettings;
@@ -272,7 +274,23 @@ namespace Nop.Plugin.Payments.BPay
 
             base.Uninstall();
         }
-
+        // Admin Menu for BPAY Plugin
+        public void ManageSiteMap(SiteMapNode rootNode)
+        {
+            var menuItem = new SiteMapNode()
+            {
+                SystemName = "Payments.BPay",
+                Title = "BPAY Payment",
+                Url = "/Admin/Payment/ConfigureMethod?systemName=Payments.BPay",
+                Visible = true,
+                RouteValues = new RouteValueDictionary() {{ "area", null } },
+            };
+            var pluginNode = rootNode.ChildNodes.FirstOrDefault(x => x.SystemName == "Third party plugins");
+            if (pluginNode != null)
+                pluginNode.ChildNodes.Add(menuItem);
+            else
+                rootNode.ChildNodes.Add(menuItem);
+        }
         #endregion
 
         #region Properties

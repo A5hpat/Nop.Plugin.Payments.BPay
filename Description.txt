@@ -1,7 +1,7 @@
 ﻿Group: Payment methods
 FriendlyName: BPay
 SystemName: Payments.BPay
-Version: 1.15
+Version: 3.6
 SupportedVersions: 3.60
 Author: Ashish Patel (ashishblog.com)
 DisplayOrder: 1

@@ -63,7 +63,7 @@ namespace Nop.Plugin.Payments.BPay
             //Generate BPAY CRN
             string bPayReff = BPayHelper.GenerateBPayCRN(reffNumber.ToString());
             
-            var order = _orderService.GetOrderById(reffNumber);
+            var order = _orderService.GetOrderById(postProcessPaymentRequest.Order.Id);
                 if (order != null)
                 {
                 
